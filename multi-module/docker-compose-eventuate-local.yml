@@ -38,7 +38,7 @@ cdcservice:
 mysql:
   build: ./mysql
   ports:
-    - 3306:3306
+    - 3307:3307
   environment:
     - MYSQL_ROOT_PASSWORD=rootpassword
     - MYSQL_USER=mysqluser
